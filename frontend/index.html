@@ -18,9 +18,15 @@
         <h1>Task Manager</h1>
         <input id="taskInput" placeholder="New Task">
         <button onclick="addTask()">Add Task</button>
-        <ul id="tasklist"></ul>
+        <ul id="taskList"></ul>
 
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <select id="categoryInput">
+    <option value="Work">Work</option>
+    <option value="Personal">Personal</option>
+    <option value="Urgent">Urgent</option>
+</select>
+
+       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="./app.js"></script>
     </body>
 </html>
